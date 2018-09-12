@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    background: #FFF;
+    text-align: center;
+    font: 1.2em/1 'Ubuntu', "Source Sans Pro";
+}
+.wrapper {
+    height: 100%;
+}
+.logo {
+    font-family: "Forte";
+    padding: 15px;
+}
+.welcome {
+    padding: 15px;
+}
+/* navigation bar */
+.navbar {
+    padding: 12px;
+    background: cornflowerblue;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
