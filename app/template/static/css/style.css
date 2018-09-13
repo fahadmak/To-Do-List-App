@@ -66,8 +66,27 @@ input#submit-button {
     border: 1px solid white;
     border-radius: 15px;
 }
+/* to do list tasks*/
+li.tasks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lists.row {
+    padding-top: 46px;
+}
+.todo_list {
+    padding-top: 37px;
+}
 @media(max-width: 548px) {
     .form-section.last {
         padding-top: 25px;
     }
+}
+@media(min-width: 768px) {
+    .row {
+        display: flex;
+    }
+    .col-4 {flex: 4}
+    .col-12 {flex: 12}
 }
