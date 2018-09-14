@@ -38,7 +38,10 @@ div#niv {
     color: white;
 }
 .nav-item {
-    padding: 12px 30px;
+    padding: 12px 0px;
+    width: 106px;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 /* sign up form */
 h2.welcome {
@@ -114,6 +117,8 @@ ul.tasks {
 }
 .desc {
     display: flex;
+    width: 89%;
+    padding: 0 8px 0 34px;
 }
 .row {
     width: 95%;
@@ -125,11 +130,45 @@ ul.tasks {
 }
 .info {
     padding: 24px;
+    width: 101%;
+    text-align: left;
 }
 .active {
     border: 1px solid white;
     color: white;
     border-radius: 18px;
+    margin-left: 34px;
+}
+.stat {
+    padding-left: 12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: #0000001a 1px solid;
+}
+.statheader {
+    font-size: 38px;
+    font-weight: normal;
+}
+.sl {
+    text-align: center;
+    padding-bottom: 11px;
+    padding-top: 8px;
+    font-size: 47px;
+    font-weight: 300;
+}
+.profile {
+    width: 91%;
+    text-align: left;
+    padding-left: 15px
+}
+.defn {
+    font-size: 15px;
+    padding: 8px 12px 12px 25px;
+    font-style: oblique;
+    border: 1px solid #92b4f2;
+    margin-top: 14px;
+    background-color: #92b4f233;
+    border-radius: 8px;
 }
 @media(max-width: 700px) {
     .form-section.last {
@@ -139,6 +178,7 @@ ul.tasks {
     padding-bottom: 24px;
 }
     .nav-links {font-size: 17px}
+    .nav-item {font-size: 14px}
 }
 @media(min-width: 768px) {
     .row {
