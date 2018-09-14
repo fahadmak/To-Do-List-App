@@ -20,6 +20,12 @@ html, body {
     padding: 15px;
 }
 /* navigation bar */
+#header {
+    width: 95%;
+}
+div#niv {
+    width: 100%;
+}
 .navbar {
     padding: 12px;
     background: cornflowerblue;
@@ -106,6 +112,20 @@ ul.tasks {
     padding-bottom: 16px;
     padding-top: 17px;
 }
+.desc {
+    display: flex;
+}
+.row {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.row.prof {
+    padding-top: 31px;
+}
+.info {
+    padding: 24px;
+}
 @media(max-width: 548px) {
     .form-section.last {
         padding-top: 25px;
@@ -119,6 +139,11 @@ ul.tasks {
     .row {
         display: flex;
     }
+    .col-2 {flex: 2}
+    .col-3 {flex: 3}
     .col-4 {flex: 4}
+    .col-8 {flex: 8}
+    .col-9 {flex: 9}
+    .col-10 {flex: 10}
     .col-12 {flex: 12}
 }
