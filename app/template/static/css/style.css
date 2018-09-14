@@ -25,7 +25,14 @@ html, body {
     background: cornflowerblue;
     display: flex;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: center;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.nav-item {
+    padding: 12px 30px;
 }
 /* sign up form */
 h2.welcome {
@@ -59,8 +66,58 @@ input#submit-button {
     border: 1px solid white;
     border-radius: 15px;
 }
+.sb {
+    width: 112px;
+    height: 38px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+/* to do list tasks*/
+li.tasks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.tick {
+    padding-right: 10px;
+}
+input.box {
+    width: 33px;
+    height: 21px;
+    border: 1px solid #cacaff66;
+}
+a.list {
+    margin-bottom: 35px;
+    color: #367dfb;
+}
+.lists.row {
+    padding-top: 46px;
+}
+.todo_list {
+    padding-top: 37px;
+}
+.row.pn {
+    padding-top: 40px;
+}
+ul.tasks {
+    padding-bottom: 16px;
+    padding-top: 17px;
+}
 @media(max-width: 548px) {
     .form-section.last {
         padding-top: 25px;
     }
+    .col-4 {
+    padding-bottom: 24px;
+}
+}
+@media(min-width: 768px) {
+    .row {
+        display: flex;
+    }
+    .col-4 {flex: 4}
+    .col-12 {flex: 12}
 }
