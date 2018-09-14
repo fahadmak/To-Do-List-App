@@ -113,6 +113,7 @@ ul.tasks {
     .col-4 {
     padding-bottom: 24px;
 }
+    .nav-links {font-size: 17px}
 }
 @media(min-width: 768px) {
     .row {
