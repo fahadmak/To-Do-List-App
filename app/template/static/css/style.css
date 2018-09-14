@@ -126,7 +126,12 @@ ul.tasks {
 .info {
     padding: 24px;
 }
-@media(max-width: 548px) {
+.active {
+    border: 1px solid white;
+    color: white;
+    border-radius: 18px;
+}
+@media(max-width: 700px) {
     .form-section.last {
         padding-top: 25px;
     }
