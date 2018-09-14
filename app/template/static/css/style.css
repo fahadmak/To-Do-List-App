@@ -126,7 +126,7 @@ ul.tasks {
 .info {
     padding: 24px;
 }
-@media(max-width: 548px) {
+@media(max-width: 700px) {
     .form-section.last {
         padding-top: 25px;
     }
@@ -134,6 +134,7 @@ ul.tasks {
     padding-bottom: 24px;
 }
     .nav-links {font-size: 17px}
+    .logo {}
 }
 @media(min-width: 768px) {
     .row {
