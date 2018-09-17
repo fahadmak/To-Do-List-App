@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    background: #FFF;
+    text-align: center;
+    font: 1.2em/1 "Raleway";
+}
+.wrapper {
+    height: 100%;
+}
+.logo {
+    font-family: "Forte";
+    padding: 15px;
+}
+.lg {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
+.welcome {
+    padding: 15px;
+}
+/* navigation bar */
+#header {
+    width: 95%;
+}
+div#niv {
+    width: 100%;
+}
+.navbar {
+    padding: 12px;
+    background: cornflowerblue;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.nav-links:hover {
+	color: yellow;
+	font-weight: bolder;
+}
+.nav-item {
+    padding: 12px 0px;
+    width: 187px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+/* sign up form */
+h2.welcome {
+    padding: 55px 0;
+}
+.box-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-section {
+    justify-content: center;
+    margin: 0px 7px;
+}
+label.holder {
+    float: left;
+    font-size: 15px;
+}
+input.first {
+    width: 252px;
+    height: 37px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid #cacaff66;
+}
+.first:active {
+    border: 1px solid #449aed99;
+}
+input#submit-button {
+    width: 206px;
+    height: 40px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.sb {
+    width: 112px;
+    height: 38px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+/* to do list tasks*/
+li.tasks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.tick {
+    padding-right: 0px;
+}
+input.box {
+    width: 33px;
+    height: 21px;
+    border: 1px solid #cacaff66;
+}
+a.list {
+    margin-bottom: 35px;
+    color: #367dfb;
+}
+.lists.row {
+    padding-top: 46px;
+}
+.todo_list {
+    padding-top: 37px;
+}
+.row.pn {
+    padding-top: 40px;
+}
+ul.tasks {
+    padding-bottom: 16px;
+    padding-top: 17px;
+}
+.desc {
+    display: flex;
+    width: 89%;
+    padding: 0 8px 0 34px;
+}
+.row {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.row.prof {
+    padding-top: 31px;
+}
+.info {
+    padding: 24px;
+    width: 101%;
+    text-align: left;
+}
+.active {
+    color: yellow;
+    font-weight: bolder;
+}
+.stat {
+    padding-left: 12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: #0000001a 1px solid;
+    font-size: 17px;
+}
+.statheader {
+    font-size: 38px;
+    font-weight: normal;
+}
+.sl {
+    text-align: center;
+    padding-bottom: 11px;
+    padding-top: 8px;
+    font-size: 29px;
+    font-weight: 300;
+}
+.profile {
+    width: 91%;
+    text-align: left;
+    padding-left: 15px
+}
+.txt {
+    font-size: 19px;
+    font-family: Raleway;
+    font-weight: 300;
+}
+.defn {
+    font-size: 15px;
+    padding: 8px 12px 12px 25px;
+    font-style: oblique;
+    border: 1px solid #92b4f2;
+    margin-top: 14px;
+    background-color: #92b4f233;
+    border-radius: 8px;
+}
+@media(max-width: 700px) {
+    .form-section.last {
+        padding-top: 25px;
+    }
+    .col-4 {
+    padding-bottom: 24px;
+}
+    .nav-links {font-size: 17px}
+    .nav-item {font-size: 14px}
+    .info {
+        padding: 24px;
+        width: 101%;
+    }
+    .desc {
+        display: flex;
+        width: 89%;
+        flex-direction: column;
+        margin: auto;
+    }
+    .statheader {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .profile {
+        width: 73%;
+        margin: auto;
+    }
+    .sl {
+        text-align: center;
+        padding-bottom: 11px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+}
+@media(min-width: 768px) {
+    .row {
+        display: flex;
+    }
+    .col-2 {flex: 2}
+    .col-3 {flex: 3}
+    .col-4 {flex: 4}
+    .col-8 {flex: 8}
+    .col-9 {flex: 9}
+    .col-10 {flex: 10}
+    .col-12 {flex: 12}
+}
