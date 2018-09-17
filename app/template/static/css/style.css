@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     background: #FFF;
     text-align: center;
-    font: 1.2em/1 "Source Sans Pro";
+    font: 1.2em/1 "Raleway";
 }
 .wrapper {
     height: 100%;
@@ -16,6 +16,11 @@ html, body {
     font-family: "Forte";
     padding: 15px;
 }
+.lg {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
 .welcome {
     padding: 15px;
 }
@@ -37,9 +42,13 @@ div#niv {
     text-decoration: none;
     color: white;
 }
+.nav-links:hover {
+	color: yellow;
+	font-weight: bolder;
+}
 .nav-item {
     padding: 12px 0px;
-    width: 106px;
+    width: 187px;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -67,6 +76,9 @@ input.first {
     border-radius: 7px;
     border: 1px solid #cacaff66;
 }
+.first:active {
+    border: 1px solid #449aed99;
+}
 input#submit-button {
     width: 206px;
     height: 40px;
@@ -91,7 +103,7 @@ li.tasks {
     padding-bottom: 10px;
 }
 .tick {
-    padding-right: 10px;
+    padding-right: 0px;
 }
 input.box {
     width: 33px;
@@ -134,16 +146,15 @@ ul.tasks {
     text-align: left;
 }
 .active {
-    border: 1px solid white;
-    color: white;
-    border-radius: 18px;
-    margin-left: 34px;
+    color: yellow;
+    font-weight: bolder;
 }
 .stat {
     padding-left: 12px;
     padding-bottom: 15px;
     padding-top: 15px;
     border: #0000001a 1px solid;
+    font-size: 17px;
 }
 .statheader {
     font-size: 38px;
@@ -153,13 +164,18 @@ ul.tasks {
     text-align: center;
     padding-bottom: 11px;
     padding-top: 8px;
-    font-size: 47px;
+    font-size: 29px;
     font-weight: 300;
 }
 .profile {
     width: 91%;
     text-align: left;
     padding-left: 15px
+}
+.txt {
+    font-size: 19px;
+    font-family: Raleway;
+    font-weight: 300;
 }
 .defn {
     font-size: 15px;
@@ -179,6 +195,32 @@ ul.tasks {
 }
     .nav-links {font-size: 17px}
     .nav-item {font-size: 14px}
+    .info {
+        padding: 24px;
+        width: 101%;
+    }
+    .desc {
+        display: flex;
+        width: 89%;
+        flex-direction: column;
+        margin: auto;
+    }
+    .statheader {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .profile {
+        width: 73%;
+        margin: auto;
+    }
+    .sl {
+        text-align: center;
+        padding-bottom: 11px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
 }
 @media(min-width: 768px) {
     .row {
