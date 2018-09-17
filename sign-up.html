@@ -63,12 +63,12 @@
                         <div class="form-section">
                             <label class="holder">Password</label>
                             <br>
-                            <input type="password" placeholder="********" class="first" required>
+                            <input type="password" id="password" placeholder="********" class="first" required>
                         </div>
                         <div class="form-section last">
                             <label class="holder"> Confirm Password</label>
                             <br>
-                            <input type="password" placeholder="********" class="first" required>
+                            <input type="password" id="confirm_password" placeholder="********" class="first" required>
                         </div>
                     </div>
                     <br>
@@ -78,5 +78,19 @@
             </div>
         </div>
     </div><!-- End of Wrapper-->
+    <script>
+        function validatePassword(){
+            var password = document.getElementById("password"),
+                confirm_password = document.getElementById("confirm_password");
+            if(password.value != confirm_password.value) {
+                confirm_password.setCustomValidity("Passwords Don't Match");
+              } else {
+                confirm_password.setCustomValidity('');
+              }
+            }
+
+        password.onchange = validatePassword;
+        confirm_password.onkeyup = validatePassword;
+    </script>
 </body>
 </html>
